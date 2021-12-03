@@ -1,0 +1,29 @@
+.greyletter{
+  color: rgb(70, 70, 70);
+}
+
+.content{
+  padding: 12px;
+  height: 3000px
+}
+
+.page-host {
+  position: relative;
+  left: 0;
+  top:30px;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+.right{
+  float:right;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
