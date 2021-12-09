@@ -14,7 +14,6 @@ const CarouselComponent = () => {
                                 <img
                                 className="d-block w-100"
                                 src={slide1}
-                                alt="First slide"
                                 />
                                 <Carousel.Caption>
                                 <h3>Dienstencentrum</h3>
@@ -25,7 +24,6 @@ const CarouselComponent = () => {
                                 <img
                                 className="d-block w-100"
                                 src={slide2}
-                                alt="Second slide"
                                 />
 
                                 <Carousel.Caption>
@@ -37,7 +35,6 @@ const CarouselComponent = () => {
                                 <img
                                 className="d-block w-100"
                                 src={slide3}
-                                alt="Third slide"
                                 />
 
                                 <Carousel.Caption>
@@ -49,7 +46,6 @@ const CarouselComponent = () => {
                                 <img
                                 className="d-block w-100"
                                 src={slide4}
-                                alt="First slide"
                                 />
                                 <Carousel.Caption>
                                 <h3>Charles Vandenhove Paviljoen</h3>

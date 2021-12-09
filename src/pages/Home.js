@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Card, Row, Col, Container, Image } from 'react-bootstrap'
+import { Row, Col, Container, Image } from 'react-bootstrap'
 import {CarouselComponent} from '../components/Carousel'
 import '../App.css'
 import slide1 from '../assets/dienstcentrum.png'
@@ -18,7 +18,7 @@ const Home = () => {
                     <Col md={12} lg={6}>
                         <Image src={slide1} rounded fluid>
                         </Image>
-                    </Col>
+                    </Col> 
                     <Col md={12} lg={6}>
                         <p class="right">17/05/2021</p><h3><a href="/projects" className="link">Dienstencentrum</a></h3>
                         <p style={{fontSize: 18}}>In het kader van het concept van de zorgzame buurt, waarbij een buurtgerichte en samenhangende integratie van wonen, zorg en welzijn wordt nagestreefd, wordt een ontwerp gemaakt voor een dienstencentrum.</p>
