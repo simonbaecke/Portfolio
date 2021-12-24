@@ -1,12 +1,7 @@
 import {Container, Image, Row, Col} from "react-bootstrap";
 import '../App.css';
 import React from "react";
-import hoofd from '../assets/aboutmefoto.png'
-import facebook from '../assets/facebook.svg'
-import github from '../assets/github.svg'
-import instagram from '../assets/instagram.svg'
-import linkedin from '../assets/linkedin.svg'
-import twitter from '../assets/twitter.svg'
+import { Socialbuttons } from "../components/socialbuttons";
 
 
 
@@ -16,7 +11,7 @@ const AboutMe = () => {
             <Container fluid>
                 <Row>
                     <Col md={12} lg={4}>
-                        <Image src={hoofd} fluid></Image>
+                        <Image src="http://localhost:5000/simon/mydata/aboutmefoto.png" fluid></Image>
                     </Col>
                     <Col className="mx-lg-5 my-sm-5">
                         <h2>
@@ -28,11 +23,10 @@ const AboutMe = () => {
                         <p style={{fontSize: 18}}>
                             Op deze website kan u al mijn projecten vinden die ik doorheen de jaren als student architectuur heb gemaakt. 
                         </p>
-                        <a href="https://www.facebook.com/simon.baecke.9" target="_blank"><Image src={facebook} width="25px" height="25px"></Image></a>
-                        <a className="mx-2" href="https://www.instagram.com/simonbaecke/" target="_blank"><Image src={instagram} width="25px" height="25px"></Image></a>
-                        <a href="https://twitter.com/BaeckeSimon" target="_blank"><Image src={twitter} width="25px" height="25px"></Image></a>
-                        <a className="mx-2" href="https://github.com/simonbaecke" target="_blank"><Image src={github} width="25px" height="25px"></Image></a>
-                        <a href="https://www.linkedin.com/in/simonbaecke" target="_blank"><Image src={linkedin} width="25px" height="25px"></Image></a> 
+                        <Row>
+                            <Socialbuttons/>
+                        </Row>
+
                     </Col>
                 </Row>
                 <Row>
