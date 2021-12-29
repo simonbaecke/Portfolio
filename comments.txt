@@ -1,0 +1,26 @@
+*Indeling
+    Mijn portfolio bestaat uit 4 pagina's: 
+    De homepagina met een slideshow met een foto van al mijn projecten met telkens de naam en het vak van het project.
+    Onder de slideshow staat nog per project een kleine card met korte informatie en een link naar de projectpagina.
+
+    De projectpagina bestaat uit een accordion met telkens een slideshow met foto's een langere tekst en basiseigenschappen van de projecten zoals datum en vak etc.
+
+    De over mij pagina is opgedeeld in 2 delen. Een deel met wat informatie over mezelf aangezien mijn homepagina niets weggeeft over mij met eronder de links naar mijn sociale media
+    en het tweede deel een korte opsomming van nuttige vaardigheden met telkens een link naar de site van de software.
+
+    Ten slotte mijn contactpagina waar mijn contactgegevens staan (met een mailto link die automatisch de mail app opent) en een kleine interactieven iframe van google maps met mijn adres.
+    
+    Ook heb ik de naam en het favicon van de site aangepast naar mijn eigen naam en logo.
+
+*Layout (van de code)
+    Ik heb gewerkt met bootstrap react voor de componenten en het gridsysteem en heb in de mate dat het mogelijk was mijn site responsive gemaakt. Bij aanpassing van de breedte schuiven
+    componenten onder elkaar in plaats van naast elkaar, de navigatiebar wordt een oplijsting en de carousel op de homepagina verdwijnt vanaf een bepaalde breedte omdat de tekstgrootte
+    in de carousel gelijk blijft maar de foto's kleiner worden wat zorgt voor een onleesbare carousel.
+
+    Op de verschillende pagina's werk ik met componenten in plaats van alles in een file te coderen, dit zorgt voor overzichtelijkheid maar ook voor makkelijk en efficient hergebruik van 
+    eventuele componenten.
+
+*Functies
+    Ik heb zoveel mogelijk data (foto's en jsonfiles) opgeslagen in de solid server. Via een custom hook wordt een getrequest doorgestuurd om een json file op te halen.
+    Deze json overloop ik dan met het map command om een overzichtelijke en efficiente code te verkrijgen. 
+

@@ -1,30 +1,20 @@
 import React from 'react'
 import { Row, Col, Image } from 'react-bootstrap'
 import '../App.css'
-import { useState, useEffect } from 'react'
+import useFetch from '../hooks/useFetch'
 
 const Shortinfo = () => {
-    const [projects, setProjects] = useState([])
+    const { data } = useFetch('http://localhost:5000/simon/mydata/projects.json') // importeren van custom hook get request
 
-    useEffect(() => {
-        async function fetchData(e) {
-            const requestOptions = {
-                method: "GET"
-            }
-            const data = await fetch(`http://localhost:5000/simon/mydata/projects.json`, requestOptions)
-            const body = await data.json()
-            setProjects(body)
-            }
-            fetchData()
-    }, [])
-    
-    return (
+    return ( // ontwerp van eigen soort kaart component met korte info voor project op homepagina
         <div>
-            {projects.map((project) => (
-                <Row className="mt-3" key={project.id}>
+            {data.map((project) => (
+                <Row className="my-3" key={project.id}>
                     <Col md={12} lg={6} >
-                        <Image src={project.home} rounded fluid>
-                        </Image>
+                        <a href="/projects">
+                            <Image src={project.home} rounded fluid>
+                            </Image>
+                        </a>
                     </Col>
                     <Col md={12} lg={6} >
                         <p class="right">{project.datum}</p><h3><a href="/projects" className="link">{project.titel}</a></h3>
@@ -37,4 +27,4 @@ const Shortinfo = () => {
 }
 
 
-export {Shortinfo}
+export { Shortinfo }

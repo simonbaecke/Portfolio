@@ -1,0 +1,38 @@
+[
+    {
+        "titel1": "Microsoft Office",
+        "titel2": "Python",
+        "id": 1,
+        "logo1": "http://localhost:5000/simon/mydata/msoffice.png",
+        "logo2": "http://localhost:5000/simon/mydata/python.png",
+        "link1": "https://www.microsoft.com/nl-be/microsoft-365/microsoft-office",
+        "link2": "https://www.python.org"
+    },
+    {
+        "titel1": "Adobe Photoshop",
+        "titel2": "Adobe Illustrator",
+        "id": 2,
+        "logo1": "http://localhost:5000/simon/mydata/ps.png",
+        "logo2": "http://localhost:5000/simon/mydata/ai.png",
+        "link1": "https://www.adobe.com/be_nl/products/photoshop.html",
+        "link2": "https://www.adobe.com/be_en/products/illustrator.html"
+    },
+    {
+        "titel1": "Autodesk Autocad",
+        "titel2": "Autodesk Revit",
+        "id": 3,
+        "logo1": "http://localhost:5000/simon/mydata/ac.png",
+        "logo2": "http://localhost:5000/simon/mydata/ar.png",
+        "link1": "https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription",
+        "link2": "https://www.autodesk.be/nl/products/revit/overview?term=1-YEAR&tab=subscription"
+    },
+    {
+        "titel1": "Rhinoceros",
+        "titel2": "Grasshopper",
+        "id": 4,
+        "logo1": "http://localhost:5000/simon/mydata/rhino.png",
+        "logo2": "http://localhost:5000/simon/mydata/grasshopper.png",
+        "link1": "https://www.rhino3d.com",
+        "link2": "https://www.grasshopper3d.com"
+    }
+]

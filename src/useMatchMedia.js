@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+//functie die componenten verbergt vanaf bepaalde breedte
 export const useMatchMedia = (mediaQuery, initialValue) => {
   const [isMatching, setIsMatching] = useState(initialValue);
   useEffect(() => {

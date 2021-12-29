@@ -1,0 +1,32 @@
+[
+    {
+        "titel": "facebook",
+        "id": 1,
+        "foto": "http://localhost:5000/simon/mydata/facebook.svg",
+        "site": "https://www.facebook.com/simon.baecke.9"
+    },
+    {
+        "titel": "instagram",
+        "id": 2,
+        "foto": "http://localhost:5000/simon/mydata/instagram.svg",
+        "site": "https://www.instagram.com/simonbaecke/"
+    },
+    {
+        "titel": "twitter",
+        "id": 3,
+        "foto": "http://localhost:5000/simon/mydata/twitter.svg",
+        "site": "https://twitter.com/BaeckeSimon"
+    },
+    {
+        "titel": "github",
+        "id": 4,
+        "foto": "http://localhost:5000/simon/mydata/github.svg",
+        "site": "https://github.com/simonbaecke"
+    },
+    {
+        "titel": "linkedin",
+        "id": 5,
+        "foto": "http://localhost:5000/simon/mydata/linkedin.svg",
+        "site": "https://www.linkedin.com/in/simonbaecke" 
+    }
+]

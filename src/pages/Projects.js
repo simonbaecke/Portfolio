@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../App.css'
 import { Longinfo } from '../components/longinfo'
 
@@ -6,7 +6,7 @@ import { Longinfo } from '../components/longinfo'
 
 const Projects = () => {
 
-    return (
+    return ( //ondanks een enkel element toch apart component voor leesbaarheid en eventuele (latere) toevoegingen
         <Longinfo/>
     )
 }

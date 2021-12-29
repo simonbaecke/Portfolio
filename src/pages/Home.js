@@ -3,17 +3,17 @@ import { Row, Container} from 'react-bootstrap'
 import { Shortinfo } from '../components/shortinfo'
 import '../App.css'
 import { useMatchMedia } from "../useMatchMedia";
-import { Carouselh } from '../components/Carouselhome ';
+import { Carouselh } from '../components/Carouselhome';
 
 
 
 const Home = () => {
-    const isDesktopResolution = useMatchMedia("(min-width:992px)", true);
+    const isDesktopResolution = useMatchMedia("(min-width:992px)", true); //minimale breedte b instellen voor functie die carousel verbergt vanaf breedte b
     return (
         <div className="page-host">
             <Container fluid>
                 <Row>
-                    {isDesktopResolution && <Carouselh/>}
+                    {isDesktopResolution && <Carouselh/>} 
                 </Row>
                 <Shortinfo />
             </Container>

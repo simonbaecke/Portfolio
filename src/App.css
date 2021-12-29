@@ -1,26 +1,19 @@
 
-.content{
-  padding: 12px;
-  height: 3000px
-}
-
-.page-host {
+.page-host { /*witruimte aan de zijkant van de site*/
   position: relative;
-  left: 0;
-  top:12px;
-  right: 0;
-  bottom: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
   padding-left: 15% !important;
   padding-right: 15% !important;
 }
 
-.right{
+.navbarpadding {
+  padding-bottom: 1%;
+}
+
+.right{ /*tekst rechts uitlijnen*/
   float:right;
 }
 
-.link {
+.link { /* verwijderen van streep onder link en blauwe kleur*/
   color: inherit;
   text-decoration: none;
 }
@@ -29,6 +22,6 @@
   margin: -15px;
 }
 
-.social {
+.social { /*witruimte tussen sociale media*/
   margin-right: 0.75%;
 }
